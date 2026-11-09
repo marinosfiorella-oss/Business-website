@@ -1,0 +1,240 @@
+<!-- 
+  Author: Alexis Warner
+  Date: November 8, 2026
+  Page: page2.html - Products & Services
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products & Services | Warner–Mayse–Marinos Chiropractic</title>
+    <style>
+        /* Shared & Page-Specific Styles */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f6f9;
+            color: #333333;
+            line-height: 1.6;
+        }
+
+        header {
+            background-color: #1a2a3a;
+            color: #ffffff;
+            padding: 2rem 1rem;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+            color: #4a90e2;
+        }
+
+        nav {
+            margin-top: 1rem;
+        }
+
+        nav a {
+            color: #ffffff;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #4a90e2;
+        }
+
+        main {
+            max-width: 1100px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+        }
+
+        h2 {
+            color: #1a2a3a;
+            border-bottom: 2px solid #4a90e2;
+            padding-bottom: 0.5rem;
+            text-align: center;
+            margin-top: 2rem;
+        }
+
+        /* Banner Image */
+        .page-banner {
+            width: 100%;
+            max-height: 350px;
+            object-fit: cover;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+
+        /* Bestseller Promo Card */
+        .promo-card {
+            background-color: #e8f4fd;
+            border-left: 5px solid #4a90e2;
+            padding: 1.5rem;
+            margin: 2rem 0;
+            border-radius: 4px;
+        }
+
+        .promo-code {
+            display: inline-block;
+            background-color: #1a2a3a;
+            color: #ffffff;
+            padding: 0.3rem 0.8rem;
+            font-weight: bold;
+            border-radius: 4px;
+        }
+
+        /* Product Grid */
+        .product-grid {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1.5rem;
+            justify-content: center;
+            margin-top: 1.5rem;
+        }
+
+        .product-card {
+            background-color: #ffffff;
+            border: 1px solid #e0e0e0;
+            border-radius: 8px;
+            padding: 1.5rem;
+            width: 280px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+
+        .price {
+            font-size: 1.25rem;
+            font-weight: bold;
+            color: #2c7a7b;
+        }
+
+        /* 3-Step Process */
+        .process-steps {
+            display: flex;
+            justify-content: space-around;
+            text-align: center;
+            margin: 2rem 0;
+            gap: 1rem;
+        }
+
+        .step-card {
+            background-color: #ffffff;
+            padding: 1.5rem;
+            border-radius: 8px;
+            flex: 1;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+        }
+
+        .step-number {
+            font-size: 2rem;
+            font-weight: bold;
+            color: #4a90e2;
+        }
+
+        footer {
+            background-color: #1a2a3a;
+            color: #ffffff;
+            text-align: center;
+            padding: 1.5rem;
+            margin-top: 3rem;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Warner–Mayse–Marinos Chiropractic</h1>
+        <p>Your Partner in Spinal Health and Natural Wellness</p>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="page2.html">Products & Services</a>
+            <a href="page3.html">About Us & Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero/Header Image for Business -->
+        <img class="page-banner" src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&w=1200&q=80" alt="Warner–Mayse–Marinos Chiropractic Care and Wellness Clinic">
+
+        <!-- Special Promo / Featured Item -->
+        <div class="promo-card">
+            <h3>★ Special Patient Promotion ★</h3>
+            <p>Get <strong>$20 off</strong> your first visit with us!</p>
+            <p>Use discount code: <span class="promo-code">WELCOME20</span> at booking.</p>
+        </div>
+
+        <!-- Catalog / Menu Section -->
+        <h2>Our Chiropractic Services</h2>
+        <div class="product-grid">
+            <div class="product-card">
+                <h3>Initial Chiropractic Consultation</h3>
+                <p>Comprehensive health history review, spinal examination, and initial posture assessment.</p>
+                <p class="price">$75</p>
+            </div>
+
+            <div class="product-card">
+                <h3>Chiropractic Adjustment</h3>
+                <p>Targeted spinal alignment to relieve tension, improve mobility, and restore nervous system function.</p>
+                <p class="price">$60</p>
+            </div>
+
+            <div class="product-card">
+                <h3>Pediatric Chiropractic Care</h3>
+                <p>Gentle, safe, and specialized adjustments tailored for growing infants, children, and adolescents.</p>
+                <p class="price">$50</p>
+            </div>
+
+            <div class="product-card">
+                <h3>Prenatal Chiropractic Care</h3>
+                <p>Specialized comfort-focused support and pelvic alignment techniques designed for expectant mothers.</p>
+                <p class="price">$70</p>
+            </div>
+
+            <div class="product-card">
+                <h3>Sports Chiropractic Care</h3>
+                <p>Performance-focused adjustments, injury prevention, and recovery care for athletes of all levels.</p>
+                <p class="price">$65</p>
+            </div>
+
+            <div class="product-card">
+                <h3>Family Wellness Package</h3>
+                <p>Comprehensive ongoing care plans designed to keep your entire household healthy and aligned.</p>
+                <p class="price">$150</p>
+            </div>
+        </div>
+
+        <!-- How It Works (Process) -->
+        <h2>How It Works</h2>
+        <div class="process-steps">
+            <div class="step-card">
+                <div class="step-number">1</div>
+                <h3>Schedule Your Appointment</h3>
+                <p>Book your visit online or over the phone at a time that works best for you.</p>
+            </div>
+            <div class="step-card">
+                <div class="step-number">2</div>
+                <h3>Meet Your Chiropractor</h3>
+                <p>Review your health goals and undergo a professional, personalized evaluation.</p>
+            </div>
+            <div class="step-card">
+                <div class="step-number">3</div>
+                <h3>Begin Your Wellness Journey</h3>
+                <p>Receive your custom treatment plan and start feeling your absolute best.</p>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Warner–Mayse–Marinos Chiropractic. Built by Alexis Warner.</p>
+    </footer>
+
+</body>
+</html>
